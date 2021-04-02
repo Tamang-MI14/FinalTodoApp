@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#31AEB1AF"
+    android:background="#25111211"
     tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#D1CCCC"
+        android:background="#DDD8E6"
         android:orientation="vertical"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
@@ -80,19 +80,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="4dp"
                 android:layout_weight="1"
-                android:background="@android:color/black"
+                android:background="#171616"
                 android:text="@string/login_signin"
-                app:backgroundTint="@android:color/darker_gray" />
+                app:backgroundTint="#322E2E" />
 
-            <Button
-                android:id="@+id/splash_btn_cancel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="4dp"
-                android:layout_weight="1"
-                android:background="@android:color/black"
-                android:text="exit"
-                app:backgroundTint="@android:color/darker_gray" />
 
         </LinearLayout>
     </LinearLayout>

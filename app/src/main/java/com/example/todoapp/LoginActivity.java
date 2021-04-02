@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         txtPassword= findViewById(R.id.splash_txt_password);
 
         btnLogin=findViewById(R.id.splash_btn_login);
-        btnCancel=findViewById(R.id.splash_btn_cancel);
+
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,29 +58,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
-        btnCancel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mAlterDialog = new AlertDialog.Builder(LoginActivity.this);
-                mAlterDialog.setMessage(getString(R.string.quit_application))
-                        .setCancelable(false)
-                        .setTitle(getString(R.string.app_name))
-                        .setIcon(R.mipmap.ic_launcher);
-                mAlterDialog.setPositiveButton(getString(R.string.ok), new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        System.exit(0);
-                    }
-                });
-                mAlterDialog.setNegativeButton(getString(R.string.cancel), new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
 
-                    }
-                });
-                mAlterDialog.show();
-            }
-        });
 
     }
 }
