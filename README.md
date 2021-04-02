@@ -9,4 +9,8 @@
 <p>This app consist of login activity. Username = Milan, Password = Tamang.</p>
 </br>
 <p>For priority, Red for High Priority, Blue for Medium Priority and Green for low Priority.</p>
+</br>
+<p>This is the Final App Result.</p>
+
+
 
