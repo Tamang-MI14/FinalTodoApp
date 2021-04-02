@@ -16,7 +16,8 @@
 
 ***task can be deleted by completed task or delete all***
 
-<img src= "https://user-images.githubusercontent.com/47654208/113417288-c875fe00-93e2-11eb-8fbc-a5221902f57a.gif">
+![alldelete](https://user-images.githubusercontent.com/47654208/113417601-7681a800-93e3-11eb-986e-89eb4d9e7894.gif)
+
 
 
 
