@@ -14,4 +14,9 @@
 
 ![Update](https://user-images.githubusercontent.com/47654208/113417024-471e6b80-93e2-11eb-9a98-7b8aa71cdeec.gif)
 
+***task can be deleted by completed task or delete all ***
+
+![alldelete](https://user-images.githubusercontent.com/47654208/113417288-c875fe00-93e2-11eb-8fbc-a5221902f57a.gif)
+
+
 
